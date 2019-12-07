@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
   pigeons = {}
   
-  pp func(data,:gender,pigeons)
+  pigeons = func(data,:gender,pigeons)
   pp func(data,:color,pigeons)
   
   
