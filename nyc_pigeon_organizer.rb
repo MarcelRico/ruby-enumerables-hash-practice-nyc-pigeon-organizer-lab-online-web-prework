@@ -13,10 +13,14 @@ def nyc_pigeon_organizer(data)
       pigeon_names.map do |pigeon_name|
       
         if(pigeon_list[pigeon_name]==nil)
-            pigeon_list[pigeon_name] = {}
+          pigeon_list[pigeon_name] = {}
         end
-      
         
+        if(pigeon_list[pigeon_name][attribute]==nil)
+          pigeon_list[pigeon_name][attribute] = []
+        else
+          pigeon_list[pigeon_name][attribute] << color
+        end
         
       end
      
