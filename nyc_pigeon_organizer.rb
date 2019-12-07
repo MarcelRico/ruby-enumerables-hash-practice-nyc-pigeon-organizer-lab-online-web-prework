@@ -8,7 +8,18 @@ def nyc_pigeon_organizer(data)
     attr_values_line.map do |values_line|
       color = values_line[0]
       pigeon_names = values_line[1]
-      pp pigeon_names
+     
+     
+      pigeon_names.map do |pigeon_name|
+      
+        if(pigeon_list[name]==nil)
+            pigeon_list[name] = {}
+        end
+      
+        
+        
+      end
+     
     end
   end
   
