@@ -1,5 +1,6 @@
 def nyc_pigeon_organizer(data)
   pigeons = {}
+  
   data[:color].map do |array| 
     color = array[0].to_s
     array[1].length.times do |idx|
