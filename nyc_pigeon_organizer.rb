@@ -3,8 +3,9 @@ def nyc_pigeon_organizer(data)
   #result_hash = create_result_hash(pigeon_names,[:color,:gender,:lives])
   
   
-  data.map{|var| pp var}
-  
+  data.map do |attr_arr|
+    attribute = attr_arr[0]
+  end
   
 
 end
