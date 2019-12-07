@@ -4,9 +4,14 @@ def nyc_pigeon_organizer(data)
   
   
   data.map do |attr_arr|
-    attribute = attr_arr[0]
-    values = attr_arr[1]
-    puts values
+    attribute = attr_arr[0].to_s
+    attribute_values = attr_arr[1]
+    
+    attribute_values.map do |attribute_line|
+      puts attribute_line
+    end
+    
+    
   end
   
 
