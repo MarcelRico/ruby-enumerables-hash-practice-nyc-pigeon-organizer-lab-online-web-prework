@@ -6,9 +6,7 @@ def nyc_pigeon_organizer(data)
   data.map{|var| pp var}
   
   
-  
-  
-  pp result_hash
+
 end
 
 def create_result_hash(pigeon_names,attributes)
