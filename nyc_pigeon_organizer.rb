@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[pigeon_name][attribute] = []
         end
         
-        # push the current attribute value onto the array that exists for the pigeons attribute. Example: 
+        # push the current attribute value onto the array that exists for the pigeons attribute. Example: {"Theo"=>{:color=>[purple,gray]}}
         pigeon_list[pigeon_name][attribute] << attribute_value
      
       end
