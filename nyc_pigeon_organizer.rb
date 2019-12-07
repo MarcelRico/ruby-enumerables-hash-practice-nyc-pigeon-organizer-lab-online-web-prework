@@ -19,8 +19,8 @@ def func(data,attribute)
     color = array[0].to_s
     array[1].length.times do |idx|
       name = array[1][idx]
-      pigeons[name] = {attribute => color}
+      result[name] = {attribute => color}
     end
   end
-  return 
+  return result
 end
