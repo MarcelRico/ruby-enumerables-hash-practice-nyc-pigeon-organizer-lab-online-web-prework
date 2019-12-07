@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   
   idx=0
   data[:color].map do |name|
-    puts "name:" + name.[0]
+    puts "name:" + name[idx]
     idx+=1
   end
   
