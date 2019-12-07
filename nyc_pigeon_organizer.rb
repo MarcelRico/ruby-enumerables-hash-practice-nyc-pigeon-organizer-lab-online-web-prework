@@ -11,9 +11,6 @@ def nyc_pigeon_organizer(data)
         name = name_array[name_idx]
         result[name] = {attribute=>key}
       end
-      
-      puts key
-      pp result
     end
     
   attribute = :lives
@@ -25,10 +22,7 @@ def nyc_pigeon_organizer(data)
         name = name_array[name_idx]
         result[name] = {attribute=>key}
       end
-      
-      puts key
-      pp result
     end
     
-  
+  pp result
 end
