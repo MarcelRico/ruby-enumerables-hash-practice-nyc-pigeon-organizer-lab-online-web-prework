@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     name_array = array[1]
     
     name_array.length.times do |name_idx|
-      name = value_array[name_idx]
+      name = name_array[name_idx]
       result[name] = key
     end
     
