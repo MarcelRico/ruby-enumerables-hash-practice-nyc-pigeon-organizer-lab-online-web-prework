@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   
   result = {}
   
-  attribute = :gender
+[].length.times do |validates_each|
   data[attribute].map do |array|
     key = array[0].to_s
     name_array = array[1]
