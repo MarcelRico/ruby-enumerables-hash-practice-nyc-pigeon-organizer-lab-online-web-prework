@@ -2,8 +2,7 @@ def nyc_pigeon_organizer(data)
   
   result = {}
   
-  [:gender,:color,:lives].each do |attribute_idx|
-    attribute = attribute_idx
+  attribute = :gender
     data[attribute].map do |array|
       key = array[0].to_s
       name_array = array[1]
@@ -16,5 +15,4 @@ def nyc_pigeon_organizer(data)
       puts key
       pp result
     end
-  end
 end
