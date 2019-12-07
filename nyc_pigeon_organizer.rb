@@ -3,9 +3,9 @@ def nyc_pigeon_organizer(data)
   
   data.map do |attribute_line| # Array of attribute lines (attr and values)
     attribute = attribute_line[0]
-    attr_values_line = attribute_line[1] # 
+    attr_values_line = attribute_line[1] # {:gender =>{:male=>[name1, name2],:female=>[]}
     
-    attr_values_line.map do |values_line|
+    attr_values_line.map do |values_line| # {:male=>[]}
       color = values_line[0].to_s
       pigeon_names = values_line[1]
      
