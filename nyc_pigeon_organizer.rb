@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     value = array[1]
     
     puts key
-    puts value
+    pp value
   end
   
 end
