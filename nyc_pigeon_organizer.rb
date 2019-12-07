@@ -1,11 +1,12 @@
 def nyc_pigeon_organizer(data)
-
-
-  result_hash = restructure_pigeon_data(data,:gender,result_hash)
-
-  restructure_pigeon_data(data,:lives,result_hash)
-
-  pp result_hash
+  pp get_pigeon_names(data)
 end
 
-
+def get_pigeon_names(data)
+  # Uses the gender attribute to return all pigeon names
+  names = []
+  data[:gender].map do |array|
+    array[1].map{|name| names << name}
+  end
+  names
+end
