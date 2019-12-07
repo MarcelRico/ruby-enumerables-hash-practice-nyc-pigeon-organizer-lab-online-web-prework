@@ -1,6 +1,5 @@
 def nyc_pigeon_organizer(data)
-  pigeon_names = get_pigeon_names(data[:gender])
-  pp pigeon_names
+  pp data
 end
 
 #Example of data
