@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     color = array[0].to_s
     array[1].length.times do |idx|
       name = array[1][idx]
-      pigeons[name] = {}
+      pigeons[name] = {:color => color}
     end
   end
 end
