@@ -1,8 +1,7 @@
 def nyc_pigeon_organizer(data)
   
-  pigeons = func(data,:gender,{})
-  pp func(data,:color,pigeons)
-  
-  
+  data[:gender].map do |array|
+    pp array
+  end
   
 end
