@@ -3,6 +3,7 @@ def nyc_pigeon_organizer(data)
   result_hash = {}
 
   attribute = :gender
+  restructure_pigeon_data(data,attribute)
   
 
 
