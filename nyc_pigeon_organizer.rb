@@ -1,5 +1,9 @@
 def nyc_pigeon_organizer(data)
-  pp get_pigeon_names(data)
+  
+end
+
+def create_result_hash
+  
 end
 
 def get_pigeon_names(data)
