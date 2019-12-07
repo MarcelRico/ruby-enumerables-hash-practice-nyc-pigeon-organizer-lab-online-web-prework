@@ -3,6 +3,7 @@ def nyc_pigeon_organizer(data)
   data[:color].map do |name|
     puts "name:" + name
   end
+  
   pp pigeons
 end
 
