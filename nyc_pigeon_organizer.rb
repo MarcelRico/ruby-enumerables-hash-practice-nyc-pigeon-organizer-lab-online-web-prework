@@ -1,7 +1,8 @@
 def nyc_pigeon_organizer(data)
-  pp data[:color]
-  
+  data[:color].map{|var| puts var}  
 end
+
+
 
 #Example of data
 #{:pigeon_name=>{:color=>"",:gender=>"",:lives=>""}}
