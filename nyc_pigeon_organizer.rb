@@ -1,6 +1,13 @@
 def nyc_pigeon_organizer(data)
-  pigeon_names = get_pigeon_names(data)
-  result_hash = create_result_hash(pigeon_names,[:color,:gender,:lives])
+  #pigeon_names = get_pigeon_names(data)
+  #result_hash = create_result_hash(pigeon_names,[:color,:gender,:lives])
+  
+  
+  data.map{|var| pp var}
+  
+  
+  
+  
   pp result_hash
 end
 
