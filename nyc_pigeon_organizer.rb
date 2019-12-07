@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  idx=0
+  idx=1
   data[:color].map do |var| 
     pp var
     idx+=1
