@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
     
   end
   
-  pp result_hash
+  result_hash
 end
 
 def create_result_hash(pigeon_names,attributes)
