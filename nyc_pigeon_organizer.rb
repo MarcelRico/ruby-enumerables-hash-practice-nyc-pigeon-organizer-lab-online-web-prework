@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
       color = attribute_line[0].to_s
       pigeon_names = attribute_line[1]
       pigeon_names.map do |name|
-        if result_hash[name][attribute] == nil
+        if result_hash[name] == nil
           result_hash[name]={}
           result_hash[name][attribute] = []
         end
