@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
   data.map do |attr_arr|
     attribute = attr_arr[0]
     values = attr_arr[1]
+    puts values
   end
   
 
