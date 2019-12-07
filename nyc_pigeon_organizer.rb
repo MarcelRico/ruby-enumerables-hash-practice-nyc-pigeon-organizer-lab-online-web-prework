@@ -3,7 +3,6 @@ def nyc_pigeon_organizer(data)
   
   pigeons = func(data,:gender,pigeons)
   pp func(data,:color,pigeons)
-  pp pigeons
   
   
   
