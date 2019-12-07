@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
     end
     
     puts key
-    pp value
+    pp result
   end
   
 end
