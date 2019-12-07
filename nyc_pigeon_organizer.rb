@@ -5,10 +5,10 @@ def nyc_pigeon_organizer(data)
     attribute = attribute_line[0]
     attr_values_line = attribute_line[1]
     
-    attr_values_line.map do |values|
-      pp values
+    attr_values_line.map do |values_line|
+      color = values_line[0]
+      pp color
     end
-    
   end
   
   
