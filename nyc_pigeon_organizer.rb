@@ -4,6 +4,15 @@ def nyc_pigeon_organizer(data)
 
   attribute = :gender
   
+
+
+
+  pp result_hash
+end
+
+
+def restructure_pigeon_data(data,attribute)
+  result_hash = {}
   data[attribute].map do |attribute_arr|
     key = attribute_arr[0].to_s
     pigeon_names = attribute_arr[1]
@@ -15,7 +24,5 @@ def nyc_pigeon_organizer(data)
       result_hash[name] << {attribute=>key}
     end
   end
-
-
-  pp result_hash
+  result_hash
 end
