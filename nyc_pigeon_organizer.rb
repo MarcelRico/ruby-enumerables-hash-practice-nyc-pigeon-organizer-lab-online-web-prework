@@ -7,6 +7,8 @@ def nyc_pigeon_organizer(data)
       pigeons[name] = {:color => color}
     end
   end
+  
+  pp pigeons
 end
 
 
