@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(data)
-  pp data
   pigeons = {}
   data[:color].map{|name,key| pigeons[name]=key}
+  pp pigeons
 end
 
 #Example of data
