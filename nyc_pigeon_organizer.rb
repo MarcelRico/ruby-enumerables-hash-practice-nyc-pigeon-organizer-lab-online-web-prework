@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   data[:color].map do |var| 
-    puts var
+    pp var
   end
 end
 
