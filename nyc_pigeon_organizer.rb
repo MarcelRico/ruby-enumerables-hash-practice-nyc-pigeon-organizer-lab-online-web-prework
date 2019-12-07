@@ -8,11 +8,11 @@ def nyc_pigeon_organizer(data)
     key = attribute_arr[0].to_s
     pigeon_names = attribute_arr[1]
     pigeon_names.length.times do |pigeon_idx|
-      name = pigeon_names[idx]
+      name = pigeon_names[pigeon_idx]
       if(result_hash[name] == nil)
         result_hash[name] = []
       end
-      result_hash[pigeon_names[name]] << {}
+      result_hash[name] << {}
     end
   end
 
