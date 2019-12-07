@@ -2,14 +2,21 @@ def nyc_pigeon_organizer(data)
   #pigeon_names = get_pigeon_names(data)
   #result_hash = create_result_hash(pigeon_names,[:color,:gender,:lives])
   
+  result_hash = {}
   
   data.map do |attr_arr|
-    attribute = attr_arr[0].to_s
+    attribute = attr_arr[0]
     attribute_values = attr_arr[1]
     
     attribute_values.map do |attribute_line|
+      color = attribute_line[0].to_s
       pigeon_names = attribute_line[1]
-      pp pigeon_names
+      pigeon_names.map do |name|
+        if result_hash[name] == nil
+          result_hash[name] = []
+        end
+        result_hash[name] << {attribute=>color}
+      end
     end
     
     
