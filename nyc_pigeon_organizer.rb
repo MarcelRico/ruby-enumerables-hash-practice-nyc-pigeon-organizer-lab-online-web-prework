@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
         if result_hash[name][attribute] == nil
           result_hash[name][attribute] = []
         end
-        result_hash[name][attribute] << [attribute=>color]
+        result_hash[name][attribute] << color
       end
     end
     
