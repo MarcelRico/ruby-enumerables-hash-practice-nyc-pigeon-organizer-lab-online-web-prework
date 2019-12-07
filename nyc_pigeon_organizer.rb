@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
     attribute_values = attr_arr[1]
     
     attribute_values.map do |attribute_line|
-      puts attribute_line
+      pp attribute_line
     end
     
     
