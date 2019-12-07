@@ -2,8 +2,14 @@ def nyc_pigeon_organizer(data)
   
 end
 
-def create_result_hash
-  
+def create_result_hash(pigeon_names,attributes)
+  result_hash = {}
+  pigeon_names.map do |name|
+    attributes.map do |attribute|
+      result_hash[name] 
+    end
+  end
+  result_hash
 end
 
 def get_pigeon_names(data)
