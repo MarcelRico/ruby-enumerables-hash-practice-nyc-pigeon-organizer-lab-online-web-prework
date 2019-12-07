@@ -1,8 +1,7 @@
 def nyc_pigeon_organizer(data)
   pigeons = {}
-  data[:color].map do |name,color|
+  data[:color].map do |name|
     puts "name:" + name
-    puts "color" + color
   end
   pp pigeons
 end
