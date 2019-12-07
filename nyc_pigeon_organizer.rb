@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
     
     attr_values_line.map do |values_line|
       color = values_line[0]
-      pp color
+      pigeon_names = values_line[1]
     end
   end
   
