@@ -19,8 +19,8 @@ def nyc_pigeon_organizer(data)
         if(pigeon_list[pigeon_name][attribute]==nil)
           pigeon_list[pigeon_name][attribute] = []
         else
-          pigeon_list[pigeon_name][attribute] << color
-        end
+          
+        pigeon_list[pigeon_name][attribute] << color
         
       end
      
